@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    android:background="#123456"
+    android:gravity="center_horizontal"
+    tools:context=".LoginActivity">
+
+    <Button
+        android:id="@+id/book_section_button"
+        android:layout_width="319dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:text="Book Section"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="255dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="104dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Admin Homepage"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/user_section_button"
+        android:layout_width="319dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:text="User Section"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/book_section_button" />
+
+    <Button
+        android:id="@+id/log_out_button"
+        android:layout_width="319dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="64dp"
+        android:text="Log Out"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_section_button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
